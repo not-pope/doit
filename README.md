@@ -4,6 +4,8 @@ youtube-dl wrapper for downloading music (mp3) in batches.
 
 ### Options
 
+Currently, available flags/options (with examples).
+
 ```
     All flags can be used with both single and double dash ( - and -- ) 
         h, help                     - Prints this dialog
@@ -17,3 +19,12 @@ youtube-dl wrapper for downloading music (mp3) in batches.
 ### Example usage
 
 `./doit -i 1 -f ./the_prodigy.txt --author "The Prodigy" -d "The Prodigy" -b 10`
+
+### Notes:
+doit is created using [Deno](https://deno.land/), which supports 'compiling' typescript scripts/programs by bundling full runtime with user scripts, hence creating **huge** executables (memory-wise). If you have Deno installed already, you can compile it for yourself (given that this is just a single-file script, it's easy enough to just download `mod.ts` and run/compile it yourself).
+
+You can use `deno compile --output doit --unstable --allow--read --allow-write --allow-run mod.ts" to compile it.
+
+### Dependencies
+
+Given the nature of the script (wrapper), doit depends on [youtube-dl](https://youtube-dl.org/).
