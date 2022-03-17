@@ -22,7 +22,8 @@ Currently, available flags/options (with examples).
 
 ### Notes:
 doit is created using [Deno](https://deno.land/), which supports 'compiling' typescript files by bundling full runtime with user's script, hence creating **huge** executables (memory-wise). If you have Deno installed already, you can compile/run it yourself.
-You can use `deno compile --output doit --unstable --allow--read --allow-write --allow-run mod.ts` to compile, or `deno run --allow-read --allow-write --allow-run mod.ts [your flags]`
+
+You can use `deno compile --output doit --unstable --allow--read --allow-write --allow-run mod.ts` to compile, or `deno run --allow-read --allow-write --allow-run mod.ts [your flags]` to run _doit_.
 
 ### Dependencies
 
