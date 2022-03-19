@@ -66,7 +66,7 @@ for (let j = 0; j < songs.length; j += batch) {
       title_elements.push(author);
     }
     title_elements.push(parts[0].trim());
-    const title = dir + "/" + title_elements.join("-") + ".mp3";
+    const title = dir + title_elements.join("-") + ".mp3";
     const download_process = Deno.run({
       cmd: [
         "youtube-dl",
