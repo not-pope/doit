@@ -18,7 +18,7 @@ Currently, available flags/options (with examples).
 ```
 ### Example usage
 
-`./doit -i 1 -f ./the_prodigy.txt --author "The Prodigy" -d "The Prodigy" -b 10`
+`./doit -i 1 -f ./the_prodigy.txt --author "The Prodigy" -d "The Prodigy/" -b 10`
 
 ### Notes:
 doit is created using [Deno](https://deno.land/), which supports 'compiling' typescript files by bundling full runtime with user's script, hence creating **huge** executables (memory-wise). If you have Deno installed already, you can compile/run it yourself.
