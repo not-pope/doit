@@ -16,7 +16,7 @@ const args = parse(Deno.args, {
     "file": "links",
     "author": "",
     "errors": "failed",
-    "dir": "songs",
+    "dir": "songs/",
     "batch": 5,
   },
   boolean: ["help"],
